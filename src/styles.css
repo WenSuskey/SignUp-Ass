@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+  padding: 0px 2px;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+
+  font-weight: 300;
+}
+
+.nameInput,
+.passwordInput,
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.agreeRes {
+  margin-top: 15px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+}
+
+.checkInfo {
+  width: 200px;
+  margin-right: 20px;
+}
+
+#firstName,
+#lastName,
+#passwordConfirm,
+#password,
+#regButton,
+#signInButton {
+  width: 42%;
+  height: 25px;
+}
+
+#regButton,
+#signInButton {
+  height: 35px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+#regButton {
+  background-color: #428aca;
+}
+
+#signInButton {
+  background-color: #5cb85b;
+}
+
+#mobileNum,
+#eMail {
+  display: flex;
+  margin: 16px auto;
+  width: 92%;
+  height: 25px;
+}
+
+#regInfo {
+  padding: 2px 8px;
+  background-color: #428aca;
+  color: white;
+  border-radius: 3px;
+}
+
+#termsInfo {
+  line-height: 1.6;
+  font-weight: 100;
+}
+
+#terms {
+  color: #1895d7;
+}
